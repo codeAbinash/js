@@ -1,4 +1,8 @@
 [
-    {"name": "All JS keywords", "link": "other/All Keywords"},
-    {"name": "UTF - 16", "link": "other/utf16"}
+    {"name": "What is JS", "link": "js_notes/start/index"},
+    {"name": "Advantages of JS", "link": "js_notes/start/advantages_of_js"},
+    {"name": "Limitations of JS", "link": "js_notes/start/limitations_of_js"},
+    {"name": "Simple Program", "link": "js_notes/start/simple_program"},
+    {"name": "More...", "link": "js_notes/start/more1"},
+    {"name": "Dialogue Boxes", "link": "js_notes/start/Dialogue_Boxes"}
 ]

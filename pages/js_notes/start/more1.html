@@ -1,0 +1,51 @@
+<h2>
+    What are the different ways to place JavaScript in an HTML file?
+</h2>
+
+<p class="intend">
+    There is a flexibility given to include JavaScript code in HTML file. However the most preferred ways to include JavaScript in an HTML file and follows.
+</p>
+
+<h3>1. JavaScript in &lt;head&gt; ... &lt;/head&gt; section</h3>
+<p class="intend">
+    If we want to have a script run on same event such as when a user clicks somewhere then we will place the script in the head as follows.
+</p>
+<div class="html code" data-code='place-js-in-html/head.html'></div>
+<p><a href="./learning/html/place-js-in-html/head.html" class="link" target="_blank">Open</a> the above HTML program.</p>
+
+
+<h3>2. JavaScript in &lt;body&gt; ... &lt;/body&gt; section</h3>
+<p class="intend">
+    If we need to have a script run as the page load so that the script generates content in the page, script goes in the &lt;body&gt; person of the document. In this case we would not have any function defined using JavaScript.
+</p>
+
+<div class="html code" data-code='place-js-in-html/body.html'></div>
+<p><a href="./learning/html/place-js-in-html/body.html" class="link" target="_blank">Open</a> the above HTML program.</p>
+
+
+
+<h3>2. JavaScript in &lt;body&gt; ... &lt;/body&gt; and &lt;head&gt; ... &lt;/head&gt; section</h3>
+<p class="intend">
+    We can put JavaScript code in &lt;head&gt; and &lt;body&gt; section as follows.
+</p>
+<div class="html code" data-code='place-js-in-html/head-body.html'></div>
+<p><a href="./learning/html/place-js-in-html/head-body.html" class="link" target="_blank">Open</a> the above HTML program.</p>
+
+
+<h3>3. JavaScript in external file</h3>
+<p class="intend">
+    As begin to work more extensively with JavaScript, we will be likely to find that there are cases where we are using identical JavaScript code on multiple page of a site. We are not restricted to be maintaining identical code in multiple HTML files. The script tag provides a mechanism to allow us to store JavaScript in an external file and then include it into the HTML files.
+</p>  
+<p class="intend">
+    Here is an example to so how we can include an external JavaScript file in the HTML code using script tag and its <span class="incode">src</span> attribute.
+</p>
+
+<h3><span class="incode">external.html</span></h3>
+<div class="html code" data-code='place-js-in-html/external.html'></div>
+<h3><span class="incode">external.js</span></h3>
+<div class="js code" data-code='place-js-in-html/external.js'></div>
+<p><a href="./learning/html/place-js-in-html/external.html" class="link" target="_blank">Open</a> the above HTML program.</p>
+
+<p class="intend">
+    We use JavaScript from an external file source, we need to write all the JavaScript source code in a simple text file with the extension ".js" and then include that file as shown above.
+</p>
