@@ -1,0 +1,21 @@
+<html>
+
+<head>
+    <title>Factorial Using functions</title>
+</head>
+
+<body>
+    <script>
+        function fact(n) {
+            let f = 1
+            while (n > 0)
+                f *= n--
+            return f
+        }
+
+        let number = Number(prompt("Enter a Number"))
+        document.write(`Factorial of ${number} is ${fact(number)}`)
+    </script>
+</body>
+
+</html>

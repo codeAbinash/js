@@ -1,0 +1,22 @@
+<html>
+
+<head>
+    <script>
+        let a = 0, b = 0, c = 0;
+        function changeBackground() {
+            document.body.style.backgroundColor = `rgba(${a},${b},${c})`
+            a++
+            b += a + 1
+            c += b + 1
+            if (a > 255) a = a - b
+            if (b > 255) b = a
+            if (c > 255) c = b
+        }
+    </script>
+</head>
+
+<body>
+    <input type="text" onkeyup="changeBackground()" placeholder="Write Something">
+</body>
+
+</html>

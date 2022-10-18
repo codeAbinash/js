@@ -9,4 +9,4 @@ loadSidebarElements([
 ])
 
 
-loadFromLink("js_notes/index")
+loadFromLink("js_notes/start/index")

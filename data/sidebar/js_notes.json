@@ -4,5 +4,8 @@
     {"name": "Limitations of JS", "link": "js_notes/start/limitations_of_js"},
     {"name": "Simple Program", "link": "js_notes/start/simple_program"},
     {"name": "More...", "link": "js_notes/start/more1"},
-    {"name": "Dialogue Boxes", "link": "js_notes/start/Dialogue_Boxes"}
+    {"name": "Dialogue Boxes", "link": "js_notes/start/Dialogue_Boxes"},
+    {"name": "Programs", "link": "js_notes/programs/programs"},
+    {"name": "Event", "link": "js_notes/event/event"},
+    {"name": "Variables", "link": "js_notes/variables/variables"}
 ]

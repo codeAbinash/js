@@ -1,0 +1,98 @@
+<h1>JavaScript <span class='gT'>Event</span></h1>
+<div class='btnDiv'>
+    <button class='hist noTxt'>&lt;&lt;</button>
+    <a data-link='js_notes/variables/variables'><button class='noTxt'>&gt;&gt;</button></a>
+</div>
+
+<h2>
+   What do you mean by event? What is event handler? Explain the various event handlers in JavaScript.
+</h2>
+<p class="intend">
+    An event is an action that occurs in the web browser, which the web browser feedbacks to the user so that user can respond to it.
+</p>
+
+<p class="intend">
+    For example, when user clicks a button on a web page, he or she may want to respond a click event by displaying a dialogue box.
+</p>
+
+<p class="intend">
+    Each event may have an event handler which is a block of code that will execute when the event occurs. And event handler is also known as an event listener. It listens to the event and executes when the event occurs.
+</p>
+
+<p class="intend">
+    Suppose we have a button with ID <span class="incode">btn</span>
+</p>
+<div class="html code" data-code='event/btn-id-btn.html'></div>
+
+<p class="intend">
+    To define the code that will be executed when the button is clicked, we need to register an event handler using the <span class="incode">addEventListener()</span> method.
+</p>
+
+<div class="js code" data-code='events/1.js'></div>
+
+
+<p class="intend">
+    * First select the button with the id <span class="incode">btn</span> using <span class="incode">the getElementById()</span> method.
+</p>
+
+<p class="intend">
+    * Then, define a function called display as an event handler.
+</p>
+
+<p class="intend">
+    Finally register an event handler using the <span class="incode">addEventListener()</span> so that when user clicks the button display function will be executed.
+</p>
+
+<p class="intend">The following are the different type of JavaScript events.</p>
+
+
+<h2>Onclick Event</h2>
+<p class="intend">
+    This is a mouse event and provokes any logic defined if the user clicks on the element it is bounded to. For example - 
+</p>
+
+<div class="html code" data-code='event/1.html'></div>
+<p><a href="./learning/html/event/1.html" class="link" target="_blank">Open</a> the above HTML program.</p>
+
+
+
+<h2>Onkeyup Event</h2>
+<p>
+    This event is keyboard event and executes instructions when whenever a key is released after pressing. For example
+</p>
+<div class="html code" data-code='event/2.html'></div>
+<p><a href="./learning/html/event/2.html" class="link" target="_blank">Open</a> the above HTML program.</p>
+
+
+
+<h2>Onmouseover Event</h2>
+<p>
+    This corresponds to hovering the mouse pointer over the element and its children to which it is bound to.
+</p>
+
+<h2>Onchange Event</h2>
+<p>This event detects the change in value of any element of listening to this event.</p>
+
+
+
+<h2>Onload Event</h2>
+<p>When an element is loaded completely, this is invoked</p>
+
+<h2>Onmouseout Event</h2>
+<p>
+    Whenever the mouse cursor leaves the element which handles a mouse out event, a function associated with it is executed.
+</p>
+
+
+
+
+
+
+<img src='./images/illustration/home.png' class='illustration' alt='Laptop'>
+<span class='bottomText'>Next Chapter : ...</span>
+
+
+<div class='btnDiv'>
+    <button class='hist noTxt'>&lt;&lt;</button>
+    <a data-link='js_notes/variables/variables'><input type='button' value='Next   &gt;&gt;'></a>
+</div> 

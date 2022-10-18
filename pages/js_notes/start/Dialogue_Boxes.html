@@ -1,6 +1,147 @@
+<h1><span class='gT'>Dialog</span> Boxes</h1>
+<div class='btnDiv'>
+    <button class='hist noTxt'>&lt;&lt;</button>
+    <a data-link='js_notes/programs/programs'><button class='noTxt'>&gt;&gt;</button></a>
+</div>
+
 <h2>
-    What are the different dialogue boxes available in JavaScript?
+    What are the different dialog boxes available in JavaScript?
 </h2>
 <p class="intend">
-    JavaScript provides the ability to pick up user input or display small amount of text To the user by using dialogue boxes.These dialog boxes appear as separate windows and their content depends on the Information provided by the user.This content is independent of the text in the HTML page containing the JavaScript and does not affect the content of the web page any way. There are three type of dialogue boxes provided by JavaScript.
+    JavaScript provides the ability to pick up user input or display small amount of text To the user by using dialog boxes.These dialog boxes appear as separate windows and their content depends on the Information provided by the user.This content is independent of the text in the HTML page containing the JavaScript and does not affect the content of the web page any way. There are three type of dialog boxes provided by JavaScript.
 </p>
+
+<h2>1. The alert dialog Box</h2>
+<p class="intend">
+    The simplest way to show small amounts of textual output to a browsers window, is to use an alert dialog box. The JavaScript <span class="incode">alert( )</span> method takes a string as an argument and displays an alert dialogue box in the browsers window when invoked by appropriate JavaScript.
+</p>
+<p class="intend">
+    The alert dialog box displays the string passed to the <span class="incode">alert( )</span> method, as well as an <span class="highlight"> OK </span> button. The JavaScript and the HTML program, in which this code snippet is held, will not continue processing until the <span class="highlight"> OK </span> button is clicked.
+</p>
+<p class="intend">
+    The alert dialog box can be used to used to display a cautionary message or display some information. For instance - 
+</p>
+
+<p class="intend">
+    * A message is displayed to the user when incorrect information is keyed in a from.
+</p>
+
+<p class="intend">
+    * An invalid result is output of a calculation.
+</p>
+
+
+<p class="intend">
+    * A warning that is service is not available on given date or time.
+</p>
+
+<p class="intend">
+    The syntax of <span class="incode">alert( )</span> is as follows -
+</p>
+
+<div class="js code" data-code='alert-box/alert.js'></div>
+
+
+
+
+
+
+
+
+
+
+
+
+<h2>The Prompt dialog</h2>
+<p class="intend">
+    As we know the <span class="incode">alert( )</span> box simply displays information in a browser and does not allow any  interactions. The addition of the <span class="highlight"> OK </span> provides very minimal control over form events that is program execution halts completely until some user action takes.
+</p>
+
+<p class="intend">
+    An alert dialog box, cannot be used to customize any webpage output based on the user input, which is what user interaction requires. 
+</p>
+
+<p class="intend">
+    JavaScript provides a prompt dialog box for this. The <span class="incode">prompt( )</span> method instantiates The prompt box which displays the specified message. In addition, the prompt dialog box also provides a single data entry field, which accepts user input. Thus, a prompt dialog box displays a preferred messages.
+</p>
+
+<p class="note">Displays a text box and accept user input.</p>
+
+
+<p class="intend">
+    Whatever the keyed into the box back to the JavaScript.
+</p>
+
+<p class="intend">
+    Displays <span class="highlight"> Ok </span> and the <span class="highlight"> Cancel </span> buttons.
+</p>
+
+
+<p class="intend">
+    The prompt dialog box also causes program execution to halt and until user action takes place. This could be the <span class="highlight"> Ok </span> button being clicked, or the <span class="highlight"> Cancel </span> button being clicked, which causes the following actions to take place.
+</p>
+
+<p class="intend">
+    * Clicking on the <span class="highlight"> Ok </span> button causes the text typed inside the textbox to be passed to the program environment.
+</p>
+
+<p class="intend">
+    * Clicking the <span class="highlight"> Cancel </span> button causes a null value to be passed to the environment.
+</p>
+
+
+<p class="intend">
+    When the <span class="incode">prompt( )</span> method is used to instantiate and use a dialog box the method requires two blocks of information.
+</p>
+
+<ul>
+    <li>A message to be displayed as a prompt to the user.</li>
+    <li>Any message to be displayed in the text box (this is optional).</li>
+</ul>
+
+<p class="intend">The syntax of the prompt is as follows.</p>
+<div class="js code" data-code='alert-box/prompt.js'></div>
+
+
+
+
+<h2>3. The confirmed dialogue box</h2>
+<p class="intend">
+    JavaScript provides the third type of dialogue box, called confirm dialog box. As the name suggests, this dialogue box serves as a technique for confirming user access. The confirm dialog box displays the following information.
+</p>
+
+<p class="intend">* A preferred message</p>
+<p class="intend">* <span class="highlight"> Ok </span> and <span class="highlight"> Cancel </span> button.</p>
+
+<p class="intend">
+    To confirm dialog box, causes program execution to halt until user action takes place. User action can be either the <span class="highlight"> Ok </span> button being clicked, or the <span class="highlight"> Cancel </span> button being clicked, which causes the following actions to take place.
+</p>
+
+<ul>
+    <li>Clicking on the <span class="highlight"> OK </span> button causes <span class="incode">true</span> to be passed to the program which called the confirm dialogue box.</li>
+    <li>Clicking on the <span class="highlight"> Confirm </span> button causes <span class="incode">false</span> to be passed to the program which called the confirmed dialogue box. </li>
+</ul>
+
+<p class="intend">The syntax of confirm is as follows.</p>
+<div class="js code" data-code='alert-box/confirm.js'></div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<img src='./images/illustration/home.png' class='illustration' alt='Laptop'>
+<span class='bottomText'>Next Chapter : ...</span>
+
+
+<div class='btnDiv'>
+    <button class='hist noTxt'>&lt;&lt;</button>
+    <a data-link='js_notes/programs/programs'><input type='button' value='Next   &gt;&gt;'></a>
+</div> 
