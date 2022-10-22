@@ -7,5 +7,9 @@
     {"name": "Dialogue Boxes", "link": "js_notes/start/Dialogue_Boxes"},
     {"name": "Programs", "link": "js_notes/programs/programs"},
     {"name": "Event", "link": "js_notes/event/event"},
-    {"name": "Variables", "link": "js_notes/variables/variables"}
+    {"name": "Variables", "link": "js_notes/variables/variables"},
+    {"name": "Cookies", "link": "js_notes/cookie/cookie"},
+    {"name": "Page Redirection", "link": "js_notes/extra/page-redirection"},
+    {"name": "JS Objects", "link": "js_notes/objects/objects"},
+    {"name": "Native Objects", "link": "js_notes/objects/native-objects"}
 ]

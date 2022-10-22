@@ -1,0 +1,56 @@
+<h1>JavaScript<span class='gT'> Cookies</span></h1>
+<div class='btnDiv'>
+    <button class='hist noTxt'>&lt;&lt;</button>
+    <a data-link='js_notes/extra/page-redirection'><button class='noTxt'>&gt;&gt;</button></a>
+</div>
+
+
+<h2>What is a cookie? How does it work? How to create a cookie in JavaScript?</h2>
+<p class="intend">
+    Hey cookie is an amount of information the persist between a server side and client side. Every browser store this information at the time of browsing. A cookie contains the information as a string, generally in the form of a name-value pairs separated by semicolons. The state of a user and remembers the users information along all the web pages.
+</p>
+
+
+<p class="intend">
+    When a user sends request to the server, then each of their request is treated as a new request sent by the different users. So to recognize the old user, we need to add the cookie with the response from the server.
+</p>
+
+<p class="intend">
+    Now, whenever user sends request to the server the cookie is added with the request automatically. Due to the cookie the server recognizes the user.
+</p>
+
+<p class="intend">
+    In JavaScript which can create, read, update and delete a cookie by using <span class="incode">document.cookie</span> property. The following syntax is used to create a cookie. <span class="incode">document.cookie = "name=vale"</span>. For example - 
+</p>
+
+<div class="js code" data-code='cookie/1.js'></div>
+
+
+<p class="intend">
+    JavaScript provides some optional attributes that enhance the functionality of cookies.
+</p>
+
+<h3>Expire</h3>
+<p>It maintains the state of a cookie up to the specified date and time.</p>
+
+<h3>Max-age</h3>
+<p>It maintains the state of a cookie after a specified time. Here time is given in seconds.</p>
+
+<h3>Path</h3>
+<p>It extends the scope of the cookie to all the pages of a website.</p>
+
+
+<h3>Domain</h3>
+<p>It is used to specify the domains for which cookies valid.</p>
+
+
+<img src='./images/illustration/home.png' class='illustration' alt='Laptop'>
+<span class='bottomText'>Next Chapter : ...</span>
+
+
+
+
+<div class='btnDiv'>
+    <button class='hist noTxt'>&lt;&lt;</button>
+    <a data-link='js_notes/extra/page-redirection'><input type='button' value='Next   &gt;&gt;'></a>
+</div>

@@ -1,0 +1,49 @@
+<h1>Page <span class='gT'>Redirection</span></h1>
+<div class='btnDiv'>
+    <button class='hist noTxt'>&lt;&lt;</button>
+    <a data-link='js_notes/objects/objects'><button class='noTxt'>&gt;&gt;</button></a>
+</div>
+<p>
+    We might have encountered a situation where we clicked a URL to the page X, but internally we were directed to another page why this happens due to the page 
+</p>
+
+<p>
+    There could be various reasons why we could like to redirect a user from the original page. Some of the reasons are as follows.
+</p>
+
+<ul>
+    <li>We did not like the name of our domain and we are moving to new one. In such a scenario, we may want to direct all our visitors to the new site. Here we can maintain our old domain but put a single page with page redirection such that all our old domain visitor come to our new domain.</li>
+
+    <li>We have build up various phases based on browser versus on their names or maybe based on different countries. Then instead of using the server side page redirection, we can use client side page redirection to land our user on the appropriate page.</li>
+
+    <li>The search engines may have already indexed the page but while moving to another domain we could not like to lose our visitors coming through search engines so we can use client side page redirection.</li>
+</ul>
+
+<p>The implementation of page redirection are as follows.</p>
+<p class="intend">
+    It is quite simple to do a page redirect using JavaScript at client side. To redirect our site visitors to a new page. We just need to add a line in our head section as follows.
+</p>
+
+<div class="js code" data-code='extra/page-redirection/1.js'></div>
+
+
+<p class="intend">
+    We can show an appropriate message to our site visitors before redirecting them to a new page. This would need a bit time delay to load to the any page. The following example shows how to implement the same. Here <span class="incode">setTimeout()</span> it is a built-in JavaScript function which can be used to execute another function after a given interval.
+</p>
+<div class="js code" data-code='extra/page-redirection/2.js'></div>
+
+<p>The following example shows how to redirect our site visitors onto a different page based on their browsers.</p>
+<div class="js code" data-code='extra/page-redirection/3.js'></div>
+
+
+
+
+<h2>What is space redirection in JavaScript and how does it work?</h2>
+<img src='./images/illustration/home.png' class='illustration' alt='Laptop'>
+<span class='bottomText'>Next Chapter : ...</span>
+
+
+<div class='btnDiv'>
+    <button class='hist noTxt'>&lt;&lt;</button>
+    <a data-link='js_notes/objects/objects'><input type='button' value='Next   &gt;&gt;'></a>
+</div>

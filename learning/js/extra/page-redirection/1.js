@@ -1,0 +1,1 @@
+window.location = 'https://codeAbinash.github.io/beyond-javascript'

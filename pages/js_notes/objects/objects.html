@@ -1,0 +1,129 @@
+<h1>JavaScript <span class='gT'>Objects</span></h1>
+<div class='btnDiv'>
+    <button class='hist noTxt'>&lt;&lt;</button>
+    <a data-link='js_notes/objects/native-objects'><button class='noTxt'>&gt;&gt;</button></a>
+</div>
+
+
+<h2>Objects in JavaScript</h2>
+
+<p>JavaScript is an object oriented programming language. A programming language that can be called object oriented if it provides 4 basic capabilities.</p>
+
+<h3>1. Encapsulation</h3>
+<p>The eligibility to store related information, whatever data or methods, together in an object.</p>
+
+<h3>2. Aggregation</h3>
+<p>That capability to store one object inside object.</p>
+
+<h3>3. Inheritance</h3>
+<p>The capability of a class to relay upon another class or member of classes for some of its properties and methods.</p>
+
+<h3>4. Polymorphism</h3>
+<p>The capability to write one function all method that walks in beauty of Wales.</p>
+<br>
+<p class="intend">
+    Objects are composed of attributes. If an attribute contains a function, it is considered to be a method of the object; otherwise the attribute is considered a property.
+</p>
+
+
+
+
+
+<h2>Object Properties</h2>
+<p class="intend">
+    Object properties can be any of the three primitive data types or any of the abstract data types, such as another object.Object properties are usually variables that are used internally in the objects methods. But can also be globally visible variable that are used throughout the page?
+</p>
+<p>The syntax for adding a property to an object is - <span class="incode">objectName.property = propertyValue</span></p>
+<p>For example, the following code gets the document title using the <span class="incode">title</span> property of the <span class="incode">document</span> object.</p>
+
+<div class="js code" data-code='objects/1.js'></div>
+
+
+
+<h2>Object Methods</h2>
+<p class="intend">
+    Methods are the functions that lead the object, do something or lead something they turn to eat.There is a small difference between function and method. If function is a stand alone unit of statements and a method is attached to an object and can be referenced by the <span class="incode">this</span> keyboard.
+</p>
+
+
+<p class="intend">
+    Methods are useful for everything from displaying the content of the object to the screen to programming complex mathematical operations on a group of local properties and parameters.
+</p>
+
+<p class="intend">For example, the following code shows how to use <span class="incode">write()</span> method of <span class="incode">document</span> object to write anything on the document.</p>
+
+<div class="js code" data-code='objects/2.js'></div>
+
+
+
+<h2>User defined objects</h2>
+<p class="intend">
+    All user defined objects and built-in objects are descendants of an object called <span class="incode">Object</span>
+</p>
+
+<h3>The <span class="incode">new</span> operator</h3>
+<p class="intend">
+    The <span class="incode">new</span> operator is used to create an instance of an object to create an object write the <span class="incode">new</span> operator followed by the constructor method.
+</p>
+
+<span class="incode">
+    For example, the constructor, methods are <span class="incode">Object()</span>, <span class="incode">Array()</span>, <span class="incode">Date()</span>. These constructors are built in methods in JavaScript.
+</span>
+
+<div class="js code" data-code='objects/3.js'></div>
+
+
+<h3>The <span class="incode">Object()</span> constructor</h3>
+<p class="intend">
+    A constructor is a function that creates an initialize an object. JavaScript provides a special constructor function called <span class="incode">Object()</span> to build the object. The return value of object constructor is assigned to a variable. The variable contains a reference to the new object. The properties assigned to the objects are not variables and are not defined with <span class="incode">var</span> keyword.
+</p>
+<div class="js code" data-code='objects/4.js'></div>
+<div class="console">The name of the fruit is Mango. It's color is Red, it's shape is Round.</div>
+
+
+<p class="intend">
+    The following example demonstrates how to create an object with a user defined function. Hear <span class="incode">this</span> keyword is used to refer to the object that has been passed to a function.
+</p>
+<div class="js code" data-code='objects/5.js'></div>
+<div class="console">See there is a Green Apple.</div>
+
+
+<h3>Defining methods for an object</h3>
+<p class="intend">
+    This is important to add method to an object. Following examples how to add function along with an object.
+</p>
+<div class="js code" data-code='objects/6.js'></div>
+<div class="console">Yellow Mango</div>
+
+
+
+
+<h2>The <span class="incode">with</span> keyword</h2>
+<p class="intend">
+    The <span class="incode">with</span> keyword is used as a kind of shorthand for referencing an object properties to methods. The object specified as an argument to <span class="incode">with</span> becomes the default object for the duration of the block that flows. The properties are methods for the object can be used without naming the objects.
+</p>
+<p class="note">This feature is no longer recommended. Though some browsers might still support it. **** our old syllabus🙂.</p>
+
+<p>The syntax for <span class="incode">with</span> object is as follows.</p>
+<div class="js code" data-code='objects/7.js'></div>
+<p>For example consider the following code.</p>
+<div class="js code" data-code='objects/8.js'></div>
+
+
+
+
+
+
+
+
+
+
+
+<img src='./images/illustration/home.png' class='illustration' alt='Laptop'>
+<span class='bottomText'>Next Chapter : ...</span>
+
+
+<div class='btnDiv'>
+    <button class='hist noTxt'>&lt;&lt;</button>
+    <a data-link='js_notes/objects/native-objects'><input type='button' value='Next   &gt;&gt;'></a>
+</div>
