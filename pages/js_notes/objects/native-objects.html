@@ -7,7 +7,8 @@
 
 <h2>JavaScript Native Objects</h2>
 <p class="intend">
-    JavaScript has many built-in native objects. These objects are accessible anywhere in the program and will work.The same way in.All browsers running in any operating system.
+    JavaScript has many built-in native objects. These objects are accessible anywhere in the program and will work.The
+    same way in.All browsers running in any operating system.
 </p>
 <p>The important JavaScript Native objects are - </p>
 
@@ -24,16 +25,18 @@
 
 <h3>The Number Object</h3>
 <p class="intend">
-    The number of jet represents numerical data, either integers or floating point numbers. The sentence for creating a number of justices follows.
+    The number of jet represents numerical data, either integers or floating point numbers. The sentence for creating a
+    number of justices follows.
 </p>
 <div class="js code" data-code='objects/number/1.js'></div>
 
 <p class="intend">
-    In the place of <span class="incode">number</span>, if we provide any non number argument then if the argument cannot be converted into a number, it returns NaN (Not a Number).
+    In the place of <span class="incode">number</span>, if we provide any non number argument then if the argument
+    cannot be converted into a number, it returns NaN (Not a Number).
 </p>
 
 <p class="intend">
-    The properties associated with number object are <span class="incode">Max_VALUE</span>, 
+    The properties associated with number object are <span class="incode">Max_VALUE</span>,
     <span class="incode">Min_VALUE</span>,
     <span class="incode">NaN</span>,
     <span class="incode">NEGATIVE_INFINITY</span>,
@@ -43,7 +46,7 @@
 </p>
 
 <p class="intend">
-    The methods associated with number object are - <span class="incode">toExponential()</span>, 
+    The methods associated with number object are - <span class="incode">toExponential()</span>,
     <span class="incode">toFixed()</span>,
     <span class="incode">toLocaleString()</span>,
     <span class="incode">toPrecision()</span>,
@@ -55,18 +58,118 @@
 
 <h3>The Boolean Object</h3>
 <p class="intend">
-    The boolean object represents two values either <span class="incode">true</span> or <span class="incode">false</span>. If the value parameter is omitted or is <span class="incode">0</span>, <span class="incode">null</span>, <span class="incode">false</span>, <span class="incode">NaN</span>, <span class="incode">undefined</span> or empty string (<span class="incode">""</span>), the object has an initial value of <span class="incode">false</span>. The syntax to create a Boolean Object is as follows -  
+    The boolean object represents two values either <span class="incode">true</span> or <span
+        class="incode">false</span>. If the value parameter is omitted or is <span class="incode">0</span>, <span
+        class="incode">null</span>, <span class="incode">false</span>, <span class="incode">NaN</span>, <span
+        class="incode">undefined</span> or empty string (<span class="incode">""</span>), the object has an initial
+    value of <span class="incode">false</span>. The syntax to create a Boolean Object is as follows -
 </p>
 
 <div class="js code" data-code='objects/native/1.js'></div>
 
 <p class="intend">
-    The properties associated with Boolean object are <span class="incode">constructor</span>, <span class="incode">prototype</span>
+    The properties associated with Boolean object are <span class="incode">constructor</span>, <span
+        class="incode">prototype</span>
 </p>
 <p class="intend">
-    The methods associated with Boolean object are <span class="incode">toSource()</span>, <span class="incode">toString()</span>, <span class="incode">valueOf()</span>.
+    The methods associated with Boolean object are <span class="incode">toSource()</span>, <span
+        class="incode">toString()</span>, <span class="incode">valueOf()</span>.
 </p>
 
+
+<h3>The string object</h3>
+<p class="intend">
+    The string object lets us work with a series of characters; it wraps JavaScript's string primitive data type with a
+    number of Helper methods As JavaScript automatically converts between string primitives and string objects. We can
+    call any of the helper methods of the string object on a string primitive.
+</p>
+<p class="intend">
+    The syntax to create a string object is as follows -
+</p>
+<div class="js code" data-code='objects/native/2.js'></div>
+<p class="intend">The <span class="incode">string</span> parameter is a series of characters that has been properly
+    imported.</p>
+<p class="intend">The properties associated with the string object are
+    <span class="incode">constructor</span>
+    <span class="incode">length</span>
+    <span class="incode">prototype</span>
+</p>
+
+<p class="intend">The method are associated with string object are -
+    <span class="incode">charAt()</span>
+    <span class="incode">concat()</span>
+    <span class="incode">indexOf()</span>
+    <span class="incode">lastIndexOf()</span>
+    <span class="incode">localeCompare()</span>
+    <span class="incode">match()</span>
+    <span class="incode">replace()</span>
+    <span class="incode">search()</span>
+    <span class="incode">slice()</span>
+    <span class="incode">split()</span>
+    <span class="incode">substr()</span>
+    <span class="incode">substring()</span>
+    <span class="incode">toLocaleLowercase()</span>
+    <span class="incode">toLocaleUppercase()</span>
+    <span class="incode">toUppercase()</span>
+    <span class="incode">toLowercase()</span>
+    <span class="incode">toString()</span>
+    <span class="incode">valueOf()</span>
+</p>
+
+
+
+<h3>The Array Object</h3>
+<p class="intend">
+    The Array object lets us store multiple values in a single variable. It stores a fixed size sequential collection of
+    elements of the same type. An array is used to store a collection of data, but it is often more useful to think of
+    an array as collection of variables of the same time.
+</p>
+<p class="intend">The syntax to create an Array object is as follows</p>
+<div class="js code" data-code='objects/native/3.js'></div>
+<p class="intend">
+    Here parameter is the list of string of integers. When we specify single numeric parameter with the Array
+    Constructor, we specify the initial length of the array. The maximum length allowed for an array is 4, 294, 967,
+    295.
+</p>
+
+<p>We can create an array by simply assigning values as follows</p>
+<div class="js code" data-code='objects/native/4.js'></div>
+
+<p class="intend">The properties associated with Array object are as follows
+    <span class="incode">constructor</span>
+    <span class="incode">index</span>
+    <span class="incode">input</span>
+    <span class="incode">length</span>
+    <span class="incode">prototype</span>
+</p>
+
+<p class="intend">The methods associated with the array object are - ... ... See Beyond JavaScript </p>
+
+
+
+<h3>The Date object</h3>
+<p class="intend">
+    the Date object is a data type built into the javascript language. Date objects are created with the <span class="incode">new Date()</span> as
+    follows. Once a Date object is created, a number of methods allow us to operate on it. Most methods simply allows us to
+    get and set the year, month, day, hour, minute, second and milliseconds fields of the object, using either local
+    time or UTC(universal or GMT) time. The ECMAscript standard the Date object to be able to represent
+    any date and time, to millisecond precision, with in 100 million days before or after 01/01/1970. This is a range of
+    plus or minus 273785 years, so javascript run represent date and time till the year 275755.
+</p>
+
+
+<p>Date objects are created with the new Date() constructor.</p>
+<span class="incode">new Date()</span> <br>
+<span class="incode">new Date(date string)</span><br>
+<span class="incode">new Date(milliseconds)</span><br>
+<span class="incode">new Date(year,month,day,hours,minutes,seconds,ms)</span><br>
+
+
+
+<p class="intend">Here parameters in the brackets are optional. In the following section there is description of parameter is provided.</p>
+
+
+<h4>No argument</h4>
 
 
 

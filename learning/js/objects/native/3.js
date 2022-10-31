@@ -1,0 +1,1 @@
+let x = new Array(list of elements seperated by comma)
